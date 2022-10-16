@@ -1,0 +1,24 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+
+    <center>
+        <h1>MATERI</h1>
+        <h2>Tentang Materi</h2>
+        <p style="font-family: 'times new roman'">
+
+    
+    </center>
+</body>
+</html>
+
+    </center>
+    
+    <h2>Daftar Materi :</h2>
+    
+    {% for judul in title %} 
+    <li>{{ judul }}</li>
+    {% endfor %}
+
+
+{% endblock %}

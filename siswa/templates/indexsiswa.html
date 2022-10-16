@@ -1,0 +1,23 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+
+    <center>
+        <h1>SISWA</h1>
+        <p style="font-family: 'times new roman'">Fakultas Pertanian berdiri pada tahun 1984 dan dikenal sebagai fakultas berwarna hijau di Untirta. Julukan itu tentunya disematkan atas dasar andil fakultas tersebut pada bidang pertanian tiap tahunnya. Pada tahun 2017, Fakultas Pertanian berhasil memiliki lahan pertanian baru di daerah Karang Triti kecamatan Baros. Luas lahan pertanian ini mencapai 19.494 m2.
+
+    
+    </center>
+</body>
+</html>
+
+    </center>
+    
+    <h2>Siswa :</h2>
+    
+    {% for judul in title %} 
+    <li>{{ judul }}</li>
+    {% endfor %}
+
+
+{% endblock %}
